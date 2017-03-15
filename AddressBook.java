@@ -11,3 +11,22 @@ public class AddressBook {
 		friends = new Contact[10];
 		numfriends = 0;
     }
+
+	public void addContact(Contact c){
+		friend[numfriends]=c;
+		numfriends++;
+	}
+	
+	
+	public void printContacts90{
+		for(int i=0; i,numfriends; i++)
+			friends[i].printContact90;
+	}
+	
+	public int numContacts(){
+		return numfriends;
+	}
+	
+	
+	public int haveContacts(String s){
+		if (friends[i].getName().equals(s);
